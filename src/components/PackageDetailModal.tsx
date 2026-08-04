@@ -60,7 +60,7 @@ export const PackageDetailModal: React.FC<PackageDetailModalProps> = ({
       `Batch Date: ${selectedBatch ? selectedBatch.startDate : formData.preferredMonth}`;
 
     setTimeout(() => {
-      window.open(`https://wa.me/919999999999?text=${message}`, '_blank');
+      globalThis.open(`https://wa.me/919999999999?text=${message}`, '_blank');
     }, 1200);
   };
 
