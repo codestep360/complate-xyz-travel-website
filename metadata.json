@@ -1,0 +1,6 @@
+{
+  "name": "Travel Booking Portal",
+  "description": "A xyztravel-inspired travel portal with package browsing, detailed itineraries, booking inquiries, and live color theme customization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
