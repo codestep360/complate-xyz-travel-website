@@ -6,14 +6,14 @@ import { defineConfig } from 'vite';
 export default defineConfig(() => {
   return {
     // Yeh line add karni hai zaroori:
-    base: '/complate-xyz-travel-website/',
-    
-    plugins: [react(), tailwindcss()],
-    resolve: {
-      alias: {
-        '@': path.resolve(__dirname, '.'),
-      },
-    },
+   import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: '/complate-xyz-travel-website/', // Yeh line honi zaroori hai!
+})
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modify this file to prevent flickering during agent edits.
